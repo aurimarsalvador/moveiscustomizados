@@ -1,0 +1,67 @@
+/* Referenciando todas as tags que possuem estilos e aplicando cada estilo para elas conforme está no projeto no FIGMA */
+
+h1{
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+}
+
+/* especificando que o <span>, dentro do h1, vai receber o bold (negrito) */
+
+h1 span{
+  font-weight: bold;
+}
+
+#hero img{
+  margin-bottom: 72px;
+}
+
+#hero{
+  width: 592px;
+  margin: 0 auto 72px;
+
+}
+
+a, p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+p{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a{
+  margin-left: 28px;
+}
+
+#line{
+  width: 568px;
+  height: 1px;
+  background: #ECEFF2;
+  margin: 0px auto 8px;
+
+}
+
+#footer{
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
